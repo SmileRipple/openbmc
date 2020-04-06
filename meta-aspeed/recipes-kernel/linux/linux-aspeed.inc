@@ -8,7 +8,7 @@ KCONFIG_MODE="--alldefconfig"
 
 # 20200401_Disable pull from Openbmc linux
 #KSRC ?= "git://github.com/openbmc/linux;protocol=git;branch=${KBRANCH}"
-KSRC ?= "git://github.com/AspeedTech-BMC/linux;protocol=git;branch=${KBRANCH}"
+KSRC ?= "git://github.com/SmileRipple/linux;protocol=git;branch=${KBRANCH}"
 SRC_URI = "${KSRC}"
 SRC_URI += " file://defconfig"
 
